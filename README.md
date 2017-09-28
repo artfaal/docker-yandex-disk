@@ -6,11 +6,11 @@ Container with Ya.Disk inside
 How to run:
 
 ```
-docker run -d --name yadisk1 \
+docker run -d --name yadisk \
  -e YANDEX_USER=<login> \
  -e YANDEX_PASSWORD=<password> \
  --restart=always \
- qautomatron/docker-yandex-disk
+ artfaal/docker-yandex-disk
  ```
 
 

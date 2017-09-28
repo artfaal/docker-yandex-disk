@@ -1,5 +1,4 @@
-FROM phusion/baseimage:0.9.19
-MAINTAINER QAutomatron
+FROM phusion/baseimage
 
 # Default variables
 ENV YANDEX_FOLDER = "/var/lib/selenium"
