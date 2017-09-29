@@ -17,6 +17,7 @@ RUN mkdir /var/lib/selenium
 
 # Folder to mount
 VOLUME ["/var/lib/selenium"]
+VOLUME ["/root/.config/yandex-disk/"]
 
 # Copy start script
 COPY start.sh /
